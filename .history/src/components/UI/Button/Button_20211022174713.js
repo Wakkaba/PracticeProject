@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
 // import styled from "styled-components";
 
-import styles from "./Button.module.css";
+import styles from './Button.module.css';
+
 
 //////////////////////////////////////////////////////////////////////////////////////
 // STYLED COMPONENTS
@@ -18,7 +19,7 @@ import styles from "./Button.module.css";
 
 // @media (min-width: 768px) {
 //   width: auto;
-// }
+// } 
 
 // &:focus {
 //   outline: none;
@@ -35,9 +36,9 @@ import styles from "./Button.module.css";
 
 //////////////////////////////////////////////////////////////////////////////////////
 
-const Button = (props) => {
+const Button = props => {
   return (
-    <button type={props.type} className={styles.button} onClick={props.onClick}>
+    <button type={props.type} className="button" onClick={props.onClick}>
       {props.children}
     </button>
   );
